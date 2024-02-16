@@ -241,6 +241,11 @@ body {
   width: 140px;
 }
 
+/* Gallery section */
+.gallary-section {
+  margin-bottom: 120px;
+}
+
 .gallary-content {
   width: 896px;
   margin-bottom: 48px;
@@ -251,7 +256,7 @@ body {
 }
 
 .gallary-section .gallary-img img {
-  width: 352px;
+  width: 363px;
 }
 
 .gallary-img-row {
@@ -259,3 +264,71 @@ body {
   gap: 24px;
   margin-bottom: 24px;
 }
+
+/* Subscribe Section Style */
+.subscibe-section {
+  margin-bottom: 120px;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.subscribe-text {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+.subscibe-section img {
+  width: 150px;
+  margin-top: 80px;
+}
+
+.inputs {
+  display: flex;
+}
+
+.subscibe-section input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subscibe-section .input-test {
+  width: 648px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #fff;
+  outline: none;
+  border-style: none;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.subscibe-section .input-submit {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border-style: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+/* Footer Section Style */
