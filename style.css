@@ -170,7 +170,7 @@ body {
   text-align: left;
 }
 
-#text-left {
+.text-left {
   text-align: left;
   margin-bottom: 16px;
 }
@@ -239,4 +239,23 @@ body {
 
 .right-text img {
   width: 140px;
+}
+
+.gallary-content {
+  width: 896px;
+  margin-bottom: 48px;
+}
+
+.gallary-img {
+  margin: 0 auto;
+}
+
+.gallary-section .gallary-img img {
+  width: 352px;
+}
+
+.gallary-img-row {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
 }
